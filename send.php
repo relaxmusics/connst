@@ -1,11 +1,11 @@
 <?php
 
 // Declare variables
-$name = $_POST["name"];
-$email = $_POST["email"];
-$phone = $_POST["phone"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+$name = $_GET["name"];
+$email = $_GET["email"];
+$phone = $_GET["phone"];
+$subject = $_GET["subject"];
+$message = $_GET["message"];
 
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
