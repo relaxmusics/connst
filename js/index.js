@@ -7,7 +7,7 @@
     function callPage(url){
       $.ajax({
 			   url: url,
-			   type: "POST",
+			   type: "GET",
 			   cache: false,
 			   data: "",
 			   success: function(data){
